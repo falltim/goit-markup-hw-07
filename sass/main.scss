@@ -1,5 +1,5 @@
 //UTILS
-@import './utils/var';
+@import './utils/variables';
 @import'./utils/vissualy-hidden';
 
 
@@ -16,6 +16,9 @@
 @import './components/backdrop';
 @import './components/modal';
 @import './components/modal-form';
+@import './components/footer-form';
+@import './components/footer-social';
+@import './components/social-link';
 
 
 
@@ -23,7 +26,6 @@
 //LAYOUT
 @import './layout/header-item';
 @import './layout/contact-header';
-@import './layout/header-item';
 @import './layout/main-title';
 @import './layout/menu-header';
 @import './layout/page-section';
@@ -31,11 +33,8 @@
 @import './layout/second-section';
 @import './layout/_section-image';
 @import './layout/third-section';
-@import './layout/social-link';
 @import './layout/client';
 @import './layout/footer';
-@import './layout/footet-social';
-@import './layout/footer-form';
 @import './layout/about-portfolio';
 @import './layout/border';
 

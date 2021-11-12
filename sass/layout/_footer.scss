@@ -36,11 +36,11 @@
     letter-spacing: 0.03em;
     color: var(--last-contact-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
   
-  .contact-footer:focus,
-  .contact-footer:hover {
-    color: var(--accent-color);
+    &:focus,
+    &:hover {
+      color: var(--accent-color);
+    }
   }
   
   .footer-logo {
